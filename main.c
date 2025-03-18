@@ -32,13 +32,13 @@ int main() {
     printf("--- Original strings ---\n");
 
     // Case 1: String with one numerical format specifier
-    printf("Case 1: %s\n", _("You have %d new messages."));
+    printf("Case 1: %s\n", ("You have %d new messages."));
     printf("  (with value): ");
     printf(_("You have %d new messages."), count);
     printf("\n\n");
 
     // Case 2: String with one string format specifier
-    printf("Case 2: %s\n", _("Hello, %s!"));
+    printf("Case 2: %s\n", ("Hello, %s!"));
     printf("  (with value): ");
     printf(_("Hello, %s!"), name);
     printf("\n\n");
