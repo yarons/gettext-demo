@@ -1,0 +1,28 @@
+# Spanish translations for formattest package.
+# This file is distributed under the same license as the formattest package.
+#
+# IMPORTANT: This file must be saved with UTF-8 encoding!
+msgid ""
+msgstr ""
+"Project-Id-Version: formattest 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-18 12:00-0800\n"
+"PO-Revision-Date: 2025-03-18 12:00-0800\n"
+"Last-Translator: Example Translator <translator@example.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"X-Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Case 1: Format specifier omitted in translation
+# Original has %d, translation has no format specifier
+msgid "You have %d new messages."
+msgstr "Tienes mensajes nuevos."
+
+# Case 2: Format specifier omitted in translation
+# Original has %s, translation has no format specifier
+msgid "Hello, %s!"
+msgstr "¡Hola!"
